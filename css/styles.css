@@ -148,6 +148,15 @@
     font-weight: bold;
     color: #1f3a63;
   }
+
+  #assinaturaPreview {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
   
   footer {
     text-align: center;

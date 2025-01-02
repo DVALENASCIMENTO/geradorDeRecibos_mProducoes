@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gerador de Recibos - Estúdio Marialvo</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Pacifico&family=Sacramento&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -45,6 +46,20 @@
       <input type="text" id="formaPagamento" placeholder="Ex: PIX" required>
 
       <button id="gerarRecibo">Gerar Recibo PDF</button>
+
+      <h3>Assinatura do Emitente</h3>
+      <label for="fonteAssinatura">Escolha a Fonte para Assinatura:</label>
+      <select id="fonteAssinatura">
+        <option value="Dancing Script">Dancing Script</option>
+        <option value="Great Vibes">Great Vibes</option>
+        <option value="Pacifico">Pacifico</option>
+        <option value="Sacramento">Sacramento</option>
+        <option value="Satisfy">Satisfy</option>
+      </select>
+      <div id="assinaturaPreview" style="font-family: 'Dancing Script'; font-size: 24px; margin-top: 10px;">
+        Marialvo Rocha do Nascimento
+      </div>
+
     </section>
   </main>
 
