@@ -1,6 +1,7 @@
-
-
 # Gerador de Recibos - Estúdio Marialvo Produções
+
+![image](https://github.com/user-attachments/assets/f281b22d-7ef0-43ae-a3a0-9ba892eb46c5)
+
 
 https://dvalenascimento.github.io/geradorDeRecibos_mProducoes/
 
