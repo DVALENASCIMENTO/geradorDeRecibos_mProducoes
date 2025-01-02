@@ -58,7 +58,7 @@ Gerador-de-Recibos/
 
 ## Autor
 **Diego Nascimento**  
-Músico, professor e desenvolvedor Front-End em ascensão. Para contato, envie um e-mail para: [seuemail@exemplo.com](mailto:seuemail@exemplo.com).
+Analista de Sistemas e Desenvolvedor Front-End em ascensão. Para contato, envie um e-mail para: [devalecode@gmail.com](mailto:devalecode@gmail.com).
 
 ## Licença
 Este projeto é de uso exclusivo do **Estúdio Marialvo Produções**. Todos os direitos reservados.
