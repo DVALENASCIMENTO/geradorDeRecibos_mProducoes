@@ -9,7 +9,7 @@
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f7f9fc;
+    background-color: #222223;
     padding: 0 20px;
   }
   
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1f3a63;
+    background-color: #000000;
     color: #fff;
     padding: 20px;
     border-radius: 12px;
@@ -49,7 +49,7 @@
   }
   
   .form-section {
-    background: #fff;
+    background: #cbc9c9;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -79,7 +79,7 @@
     font-size: 1rem;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #f9fbfd;
+    background-color: #ffffff;
     transition: all 0.3s ease-in-out;
   }
   
@@ -87,7 +87,7 @@
     border-color: #1f3a63;
     box-shadow: 0 0 8px rgba(31, 58, 99, 0.3);
     outline: none;
-    background-color: #fff;
+    background-color: #a3a3a3;
   }
   
   .btn {
@@ -97,7 +97,7 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
     background-color: #5ca9e6;
     border: none;
     border-radius: 8px;
@@ -154,7 +154,7 @@
     padding: 15px;
     margin-top: 30px;
     font-size: 0.9rem;
-    background-color: #1f3a63;
+    background-color: #000000;
     color: #fff;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
