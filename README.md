@@ -1,6 +1,7 @@
-
-
 # Gerador de Recibos - Estúdio Marialvo Produções
+
+![image](https://github.com/user-attachments/assets/f281b22d-7ef0-43ae-a3a0-9ba892eb46c5)
+
 
 https://dvalenascimento.github.io/geradorDeRecibos_mProducoes/
 
@@ -57,7 +58,7 @@ Gerador-de-Recibos/
 
 ## Autor
 **Diego Nascimento**  
-Músico, professor e desenvolvedor Front-End em ascensão. Para contato, envie um e-mail para: [seuemail@exemplo.com](mailto:seuemail@exemplo.com).
+Analista de Sistemas e Desenvolvedor Front-End em ascensão. Para contato, envie um e-mail para: [devalecode@gmail.com](mailto:devalecode@gmail.com).
 
 ## Licença
 Este projeto é de uso exclusivo do **Estúdio Marialvo Produções**. Todos os direitos reservados.
