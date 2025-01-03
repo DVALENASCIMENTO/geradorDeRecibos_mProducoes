@@ -44,7 +44,7 @@ document.getElementById("gerarRecibo").addEventListener("click", () => {
   const total = servicos.reduce((sum, item) => sum + parseFloat(item.valor), 0).toFixed(2);
 
   // Caminho do logo
-  const logoPath = "assets/logo_ger_rec.webp";
+  const logoPath = "assets/logo.png";
   const img = new Image();
   img.src = logoPath;
 
@@ -59,19 +59,10 @@ document.getElementById("gerarRecibo").addEventListener("click", () => {
   };
 });
 
-// Atualizar o preview da assinatura ao selecionar uma fonte
-document.getElementById("fonteAssinatura").addEventListener("change", () => {
-  const fonteSelecionada = document.getElementById("fonteAssinatura").value;
-  const assinaturaPreview = document.getElementById("assinaturaPreview");
-  assinaturaPreview.style.fontFamily = fonteSelecionada;
-});
-
-// Atualizar o PDF para incluir a assinatura com a fonte selecionada
 function gerarReciboPDF(doc, nomeCliente, cpfCliente, enderecoCliente, formaPagamento, total) {
-  const fonteAssinatura = document.getElementById("fonteAssinatura").value;
-
   doc.setFontSize(18);
-  doc.text("RECIBO", 105, 40, { align: "center" });
+  doc.text("RECIBO", 100, 30, { align: "center" });
+  doc.text("Estúdio M Produções", 105, 40, { align: "center" });
 
   doc.setFontSize(12);
   doc.text("Emitente: Marialvo Rocha do Nascimento", 20, 60);
@@ -90,15 +81,10 @@ function gerarReciboPDF(doc, nomeCliente, cpfCliente, enderecoCliente, formaPaga
 
   doc.text(`Valor Total: R$ ${total}`, 20, y + 10);
   doc.text(`Forma de Pagamento: ${formaPagamento}`, 20, y + 20);
-  doc.text(`Data: ${new Date().toLocaleDateString()}`, 20, y + 40);
+  doc.text(`Manaus, ${new Date().toLocaleDateString()}`, 20, y + 40);
 
-  // Adicionar assinatura do emitente com a fonte cursiva escolhida
-  doc.setFont("Dancing Script", "normal");
-  doc.setFontSize(18);
-  const nomeEmitente = "Marialvo Rocha do Nascimento";
-  const assinaturaTexto = `Assinatura do Emitente: ${nomeEmitente} `;
-
-  doc.text(assinaturaTexto, 20, y + 60);
+  doc.text("Assinatura do Emitente: __________________________", 20, y + 70);
+  doc.text("Assinatura do Cliente: __________________________", 20, y + 60);
 
   doc.save("recibo.pdf");
 }

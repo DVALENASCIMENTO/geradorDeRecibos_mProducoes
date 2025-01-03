@@ -90,33 +90,57 @@
     background-color: #a3a3a3;
   }
   
-  .btn {
-    display: inline-block;
-    padding: 12px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: #5ca9e6;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    margin-top: 10px;
-  }
-  
-  .btn:hover {
-    background-color: #1f3a63;
-  }
-  
-  .add-btn {
-    background-color: #5ca9e6;
-  }
-  
-  .generate-btn {
-    background-color: #1f3a63;
-  }
+  /* Botões Melhorados */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(135deg, #5ca9e6, #1f3a63);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #000000, #252627);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn:focus {
+  outline: 2px solid #1f3a63;
+  outline-offset: 2px;
+}
+
+/* Botões Específicos */
+.add-btn {
+  background: linear-gradient(135deg, #000000, #757f85);
+}
+
+.add-btn:hover {
+  background: linear-gradient(135deg, #68c3ff, #3378b1);
+}
+
+.generate-btn {
+  background: linear-gradient(135deg, #636a75, #000000);
+}
+
+.generate-btn:hover {
+  background: linear-gradient(135deg, #142b45, #5580c1);
+}
+
   
   .servicos-section {
     margin-top: 20px;
